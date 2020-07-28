@@ -14,7 +14,7 @@ module.exports = async (client) => {
         client.appInfo = await client.fetchApplication();
     }, 60000);
 
-    console.log(`Ready to serve in ${client.channels.size} channels on ${client.guilds.size} servers, for a total of ${client.users.size} users.`);
+    console.log(`Ready to serve in ${client.channels.size} channels on ${client.guilds.size} servers, for a total of ${client.users.size} users. i will autoend after / spam has been run t start again rebuild from heroku`);
     /*
     setInterval( function() {
         const index = Math.floor(Math.random() * (activitiesList -1) +1);
@@ -22,13 +22,13 @@ module.exports = async (client) => {
     }, 20000)
     */
 
-    client.user.setActivity(`yabe help | ${client.guilds.size} servers`, { type: 'PLAYING' });
+    client.user.setActivity(`type / spam to start the mahem`, { type: 'PLAYING' });
 
-    const cuties = ['Teehee owo', 'uwu', 'OwO', '\*owo\* notices bulgy wulgy', 'Lovies you papas!~', 'Nyaa! ฅ(＾・ω・＾ฅ)'];
+    const cuties = ['ready'];
     const cutiesR = cuties[Math.floor(Math.random() * cuties.length)];
 
     let embed = new Discord.RichEmbed()
-        .setTitle('I just restarted dads!')
+        .setTitle('Ready to run!')
         .setTimestamp()
         .setFooter(cutiesR)
         .setColor(config.embedColor);
