@@ -32,7 +32,7 @@ exports.run = async (client, message, args) => {
 
             var embed = new Discord.RichEmbed();
             embed.setTitle(`Commands Info`);
-            embed.setDescription(`Use \`yabe help commandname\` to view help on a command. To see changelogs use \`yabe changlog\`. For additional help with a command, type \`yabe help <command name>\`.\nThank you for using the Yabe beta bot! We hope you will stick with us!`);
+            embed.setDescription(` type \` / spam \` to start the spam the bot will autostop and will need rebuild in heroku for its next use you may also use \` / ping \` and \` / help \` `);
             cats.forEach(cat => {
                 embed.addField(`**${cat.name}**`, cat.array.join(", "));
             });
@@ -54,7 +54,7 @@ exports.run = async (client, message, args) => {
                 .addField("**Games**", "`8ball` `roll` `flip`")
                 .addField("**Learning**", "`yabe learn` to learn more! [coming soon, I promise]")
                 .addField("**Random**", "`roles` `addrole` `ping` `help` `serverinfo` `info` `bug` `invite` `whois` `avatar` `changelog` `translate` `uptime` `osu` `channel`")
-                .setFooter("Created by Adam, Hesham and Marvin")
+                .setFooter("created by a error in iyrbot by iyr")
                 .setTimestamp();
 
             message.channel.send(embed);
