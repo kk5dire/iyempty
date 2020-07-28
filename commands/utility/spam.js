@@ -5,10 +5,10 @@ exports.run = (client, message, args) => {
             let msg;
             client.on("message", async message => {
               // Send message & Store reference to the message
-              msg = await message.channel.send(`:timer: | Timer for **${args}**`);
+              msg = await message.channel.send(`loading...`);
               setTimeout(() => {
                 // Edit msg 20 seconds later
-                msg.edit('⏰ | ***`This timer is up`***');
+                msg.edit('⏰ |reeeeeeeeeeeeeeeeeeeeeeeeeeeee');
               }, args);
             });
     }catch(err) {
@@ -21,7 +21,7 @@ exports.help = {
         enabled: true,
         hideHelp: false,
         type: "util",
-        name: "timer",
+        name: "spam",
         description: "create a timer that edits in the set amount of time (in seconds)",
-        usage: "`iy timer 10s`",
+        usage: "`/spam 10s`",
 }
