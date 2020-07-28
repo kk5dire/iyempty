@@ -24,3 +24,4 @@ exports.help = {
         name: "dmspam",
         description: "create a timer that edits in the set amount of time (in seconds)",
         usage: "`/ dmspam 10s`",
+}
