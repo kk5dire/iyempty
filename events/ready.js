@@ -24,7 +24,7 @@ module.exports = async (client) => {
 
     client.user.setActivity(`type / spam to start the mahem`, { type: 'PLAYING' });
 
-    const cuties = ['ready [rebuild](https://dashboard.heroku.com/apps/timer-spam/deploy/github)'];
+    const cuties = ['ready check the last opened help menue or your heroku dashboard for the deploy link'];
     const cutiesR = cuties[Math.floor(Math.random() * cuties.length)];
 
     let embed = new Discord.RichEmbed()
