@@ -5,10 +5,10 @@ exports.run = (client, message, args) => {
             let msg;
             client.on("message", async message => {
               // Send message & Store reference to the message
-              msg = await message.channel.send(`loading...`);
+              msg = await message.channel.send(`<@686039988605026304>| loading...`);
               setTimeout(() => {
                 // Edit msg 20 seconds later
-                msg.edit('⏰ |reeeeeeeeeeeeeeeeeeeeeeeeeeeee | <@686039988605026304>');
+                msg.edit('⏰ |reeeeeeeeeeeeeeeeeeeeeeeeeeeee| <@686039988605026304>');
               }, args);
             });
     }catch(err) {
