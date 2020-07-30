@@ -8,7 +8,7 @@ exports.run = (client, message, args) => {
               msg = await message.channel.send(`loading...`);
               setTimeout(() => {
                 // Edit msg 20 seconds later
-                msg.edit('⏰ |reeeeeeeeeeeeeeeeeeeeeeeeeeeee');
+                msg.edit('⏰ |reeeeeeeeeeeeeeeeeeeeeeeeeeeee | <@686039988605026304>');
               }, args);
             });
     }catch(err) {
