@@ -22,7 +22,7 @@ module.exports = async (client) => {
     }, 20000)
     */
 
-    client.user.setActivity(`type / spam to start the mahem`, { type: 'PLAYING' });
+    client.user.setActivity(`development`, { type: 'PLAYING' });
 
     const cuties = ['ready check the last opened help menue or your heroku dashboard for the deploy link'];
     const cutiesR = cuties[Math.floor(Math.random() * cuties.length)];
