@@ -32,7 +32,7 @@ exports.run = async (client, message, args) => {
 
             var embed = new Discord.RichEmbed();
             embed.setTitle(`Commands Info`);
-            embed.setDescription(` type \` / spam \` to start the spam the bot! \`\`\` the bot  will autostop and will need rebuild in heroku for its next use \`\`\` [------------------------rebuild------------------------](https://dashboard.heroku.com/apps/timer-spam/deploy/github)`);
+            embed.setDescription(`help`);
             cats.forEach(cat => {
                 embed.addField(`**${cat.name}**`, cat.array.join(", "));
             });
