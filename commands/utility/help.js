@@ -39,7 +39,6 @@ exports.run = async (client, message, args) => {
             embed.setColor(client.config.embedColor);
             embed.setTimestamp();
             embed.setThumbnail(client.user.displayAvatarURL);
-            embed.setFooter(`Created by Adam, Hesham and Marvin`);
             message.channel.send(embed).catch((e) => {
                 message.channel.send(`Something went wrong! Tell a dev or try again.`);
                 console.error(e);
