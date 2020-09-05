@@ -1,4 +1,5 @@
 const Discord = require('discord.js');
+const tools = require('../tools');
 exports.run = (client, message, args) => {
     try {
           const output = eval(args.join(' '));
