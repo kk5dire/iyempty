@@ -51,6 +51,6 @@ const start = async () => {
     });
     console.log('I am prepared to decimate them weebs with my otaku-desu status ÒwÓ');
 
-    client.login('NzYxMTAyMzA0MjM2Nzk3OTUy.X3VtwQ.JGTWQNxnHmx2HkRBTf5fxKBCJqg');
+    client.login(ODQzNzgyMDk4Mzk2MzgxMTk0.YKI3UA.n-0QEi2BPz7ljSlRfbBTBEgJbAA');
 };
 start();
